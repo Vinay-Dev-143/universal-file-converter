@@ -1,0 +1,9 @@
+fastapi[standard]
+uvicorn[standard]
+python-multipart
+pdf2docx
+python-docx
+Pillow
+moviepy
+pydub
+PyPDF2

@@ -1,11 +1,8 @@
-import { Metadata } from "next";
+"use client";
+
 import { Mail, MessageSquare, Clock } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Contact Us | UniversalConvert",
-  description: "Get in touch with the UniversalConvert team. We're here to help with any questions, feedback, or support requests.",
-  alternates: { canonical: "https://universalconvert.app/contact" },
-};
+
 
 export default function ContactPage() {
   return (

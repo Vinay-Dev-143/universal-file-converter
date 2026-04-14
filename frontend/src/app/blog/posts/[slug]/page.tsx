@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { blogPosts } from "../../blogData";
-import { Clock, Calendar, ChevronLeft, Share2, Mail, Twitter, Facebook } from "lucide-react";
+import { Clock, Calendar, ChevronLeft, Share2, Mail, MessageCircle, Globe } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
@@ -87,8 +87,8 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
              <div className="space-y-4">
                <h4 className="font-black text-xs uppercase tracking-[0.2em] text-slate-400">Share This</h4>
                <div className="flex gap-2">
-                 <Button variant="outline" size="icon" className="rounded-full hover:bg-blue-50 transition-colors"><Twitter className="w-4 h-4 text-blue-400" /></Button>
-                 <Button variant="outline" size="icon" className="rounded-full hover:bg-blue-600 hover:text-white transition-colors"><Facebook className="w-4 h-4" /></Button>
+                 <Button variant="outline" size="icon" className="rounded-full hover:bg-blue-50 transition-colors"><Globe className="w-4 h-4 text-blue-400" /></Button>
+                 <Button variant="outline" size="icon" className="rounded-full hover:bg-blue-600 hover:text-white transition-colors"><MessageCircle className="w-4 h-4" /></Button>
                  <Button variant="outline" size="icon" className="rounded-full hover:bg-slate-900 hover:text-white transition-colors"><Mail className="w-4 h-4" /></Button>
                </div>
              </div>

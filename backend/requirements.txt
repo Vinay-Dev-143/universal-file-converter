@@ -10,7 +10,7 @@ pydub==0.25.*
 PyPDF2==3.0.*
 docx2pdf==0.1.*
 imageio-ffmpeg==0.6.*
-audioop-lts==0.2.*
+audioop-lts>=0.2.0
 requests==2.32.*
 numpy==2.2.*
 xhtml2pdf==0.2.*
